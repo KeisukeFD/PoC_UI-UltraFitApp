@@ -7,19 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A701C3B624D8522B009EF180 /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A701C3B524D8522B009EF180 /* AnimationExtension.swift */; };
+		A701C3B824D8AC9F009EF180 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A701C3B724D8AC9F009EF180 /* MealDetailView.swift */; };
+		A701C3BA24D8E6E8009EF180 /* MultipleHorizontalTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A701C3B924D8E6E8009EF180 /* MultipleHorizontalTabView.swift */; };
+		A701C3BD24D9C47C009EF180 /* FullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A701C3BC24D9C47C009EF180 /* FullScreen.swift */; };
+		A779CFF324D4DD7F00EB6DFA /* Conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779CFF224D4DD7F00EB6DFA /* Conversions.swift */; };
+		A779CFF524D50B9E00EB6DFA /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779CFF424D50B9E00EB6DFA /* SwitchView.swift */; };
+		A779CFF724D5B5C900EB6DFA /* FoodPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779CFF624D5B5C900EB6DFA /* FoodPreferencesView.swift */; };
+		A779CFF924D5B6B100EB6DFA /* SelectBulletList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779CFF824D5B6B100EB6DFA /* SelectBulletList.swift */; };
+		A779CFFB24D5C11B00EB6DFA /* MultiSelectSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779CFFA24D5C11B00EB6DFA /* MultiSelectSquareView.swift */; };
+		A779CFFD24D5DF1E00EB6DFA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779CFFC24D5DF1E00EB6DFA /* ProfileView.swift */; };
+		A779CFFF24D5E38D00EB6DFA /* CapsuleIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779CFFE24D5E38D00EB6DFA /* CapsuleIcon.swift */; };
+		A779D00124D5E7F700EB6DFA /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D00024D5E7F700EB6DFA /* CircleProgressView.swift */; };
+		A779D00324D5F81600EB6DFA /* HeartBeatSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D00224D5F81600EB6DFA /* HeartBeatSimpleView.swift */; };
+		A779D00524D605AB00EB6DFA /* TodayCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D00424D605AB00EB6DFA /* TodayCardView.swift */; };
+		A779D00724D618F300EB6DFA /* SmallStatsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D00624D618F300EB6DFA /* SmallStatsCardView.swift */; };
+		A779D00924D6263000EB6DFA /* SegmentSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D00824D6263000EB6DFA /* SegmentSelectorView.swift */; };
+		A779D00B24D63BC200EB6DFA /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D00A24D63BC200EB6DFA /* OnBoardingView.swift */; };
+		A779D00D24D7063600EB6DFA /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D00C24D7063600EB6DFA /* SplashView.swift */; };
+		A779D00F24D73D0900EB6DFA /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D00E24D73D0900EB6DFA /* MenuListView.swift */; };
+		A779D01124D746A800EB6DFA /* MealCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D01024D746A800EB6DFA /* MealCardView.swift */; };
+		A779D01324D74EBB00EB6DFA /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D01224D74EBB00EB6DFA /* MealModel.swift */; };
+		A779D01524D75E5E00EB6DFA /* SortSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D01424D75E5E00EB6DFA /* SortSelectView.swift */; };
+		A779D01724D78B3500EB6DFA /* YourProgressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D01624D78B3500EB6DFA /* YourProgressionView.swift */; };
+		A779D01924D78D8000EB6DFA /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D01824D78D8000EB6DFA /* ExerciseView.swift */; };
+		A779D01B24D798D600EB6DFA /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779D01A24D798D600EB6DFA /* StepsView.swift */; };
 		A79B96BF24D073A100BB461E /* UI_UtraFitAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B96BE24D073A100BB461E /* UI_UtraFitAppApp.swift */; };
 		A79B96C124D073A100BB461E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B96C024D073A100BB461E /* ContentView.swift */; };
 		A79B96C324D073A200BB461E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79B96C224D073A200BB461E /* Assets.xcassets */; };
 		A79B96C624D073A200BB461E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79B96C524D073A200BB461E /* Preview Assets.xcassets */; };
+		A79B96CE24D073F900BB461E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B96CD24D073F900BB461E /* MainView.swift */; };
+		A79B96D024D0740600BB461E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B96CF24D0740600BB461E /* LoginView.swift */; };
+		A7E6181424D0FFEA0075C5AB /* SocialIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6181324D0FFEA0075C5AB /* SocialIcon.swift */; };
+		A7E6181824D1BDD50075C5AB /* RoundButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6181724D1BDD50075C5AB /* RoundButtonModifier.swift */; };
+		A7E6181A24D1BDF10075C5AB /* RoundInputModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6181924D1BDF10075C5AB /* RoundInputModifier.swift */; };
+		A7E6181C24D1BE000075C5AB /* LoginRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6181B24D1BE000075C5AB /* LoginRegisterView.swift */; };
+		A7E6182124D1BEB20075C5AB /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6182024D1BEB20075C5AB /* Parameters.swift */; };
+		A7E6182424D1C49D0075C5AB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6182324D1C49D0075C5AB /* UserModel.swift */; };
+		A7E6182724D201630075C5AB /* PersonalInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6182624D201630075C5AB /* PersonalInformationView.swift */; };
+		A7E6182924D201BD0075C5AB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6182824D201BD0075C5AB /* CardView.swift */; };
+		A7E6182E24D23B340075C5AB /* SliderRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6182D24D23B340075C5AB /* SliderRulerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A701C3B524D8522B009EF180 /* AnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExtension.swift; sourceTree = "<group>"; };
+		A701C3B724D8AC9F009EF180 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		A701C3B924D8E6E8009EF180 /* MultipleHorizontalTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleHorizontalTabView.swift; sourceTree = "<group>"; };
+		A701C3BC24D9C47C009EF180 /* FullScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreen.swift; sourceTree = "<group>"; };
+		A779CFF224D4DD7F00EB6DFA /* Conversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversions.swift; sourceTree = "<group>"; };
+		A779CFF424D50B9E00EB6DFA /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		A779CFF624D5B5C900EB6DFA /* FoodPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPreferencesView.swift; sourceTree = "<group>"; };
+		A779CFF824D5B6B100EB6DFA /* SelectBulletList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBulletList.swift; sourceTree = "<group>"; };
+		A779CFFA24D5C11B00EB6DFA /* MultiSelectSquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectSquareView.swift; sourceTree = "<group>"; };
+		A779CFFC24D5DF1E00EB6DFA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A779CFFE24D5E38D00EB6DFA /* CapsuleIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleIcon.swift; sourceTree = "<group>"; };
+		A779D00024D5E7F700EB6DFA /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		A779D00224D5F81600EB6DFA /* HeartBeatSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartBeatSimpleView.swift; sourceTree = "<group>"; };
+		A779D00424D605AB00EB6DFA /* TodayCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCardView.swift; sourceTree = "<group>"; };
+		A779D00624D618F300EB6DFA /* SmallStatsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallStatsCardView.swift; sourceTree = "<group>"; };
+		A779D00824D6263000EB6DFA /* SegmentSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentSelectorView.swift; sourceTree = "<group>"; };
+		A779D00A24D63BC200EB6DFA /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		A779D00C24D7063600EB6DFA /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A779D00E24D73D0900EB6DFA /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		A779D01024D746A800EB6DFA /* MealCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCardView.swift; sourceTree = "<group>"; };
+		A779D01224D74EBB00EB6DFA /* MealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealModel.swift; sourceTree = "<group>"; };
+		A779D01424D75E5E00EB6DFA /* SortSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortSelectView.swift; sourceTree = "<group>"; };
+		A779D01624D78B3500EB6DFA /* YourProgressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourProgressionView.swift; sourceTree = "<group>"; };
+		A779D01824D78D8000EB6DFA /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		A779D01A24D798D600EB6DFA /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
 		A79B96BB24D073A100BB461E /* UI-UtraFitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-UtraFitApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79B96BE24D073A100BB461E /* UI_UtraFitAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_UtraFitAppApp.swift; sourceTree = "<group>"; };
 		A79B96C024D073A100BB461E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A79B96C224D073A200BB461E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A79B96C524D073A200BB461E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A79B96C724D073A200BB461E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79B96CD24D073F900BB461E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A79B96CF24D0740600BB461E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A7E6181324D0FFEA0075C5AB /* SocialIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialIcon.swift; sourceTree = "<group>"; };
+		A7E6181724D1BDD50075C5AB /* RoundButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButtonModifier.swift; sourceTree = "<group>"; };
+		A7E6181924D1BDF10075C5AB /* RoundInputModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundInputModifier.swift; sourceTree = "<group>"; };
+		A7E6181B24D1BE000075C5AB /* LoginRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterView.swift; sourceTree = "<group>"; };
+		A7E6182024D1BEB20075C5AB /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		A7E6182324D1C49D0075C5AB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A7E6182624D201630075C5AB /* PersonalInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationView.swift; sourceTree = "<group>"; };
+		A7E6182824D201BD0075C5AB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A7E6182D24D23B340075C5AB /* SliderRulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderRulerView.swift; sourceTree = "<group>"; };
+		A7F0C61E24DC72DD00A540BE /* UI-UtraFitApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "UI-UtraFitApp.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +106,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A701C3BB24D9C46B009EF180 /* Frames */ = {
+			isa = PBXGroup;
+			children = (
+				A701C3BC24D9C47C009EF180 /* FullScreen.swift */,
+				A7E6182824D201BD0075C5AB /* CardView.swift */,
+				A701C3B924D8E6E8009EF180 /* MultipleHorizontalTabView.swift */,
+			);
+			path = Frames;
+			sourceTree = "<group>";
+		};
+		A779CFF124D4DD7200EB6DFA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A779CFF224D4DD7F00EB6DFA /* Conversions.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		A79B96B224D073A100BB461E = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +143,18 @@
 		A79B96BD24D073A100BB461E /* UI-UtraFitApp */ = {
 			isa = PBXGroup;
 			children = (
-				A79B96BE24D073A100BB461E /* UI_UtraFitAppApp.swift */,
-				A79B96C024D073A100BB461E /* ContentView.swift */,
+				A7F0C61E24DC72DD00A540BE /* UI-UtraFitApp.entitlements */,
+				A701C3BB24D9C46B009EF180 /* Frames */,
+				A779CFF124D4DD7200EB6DFA /* Utils */,
+				A7E6182524D1F88A0075C5AB /* Extensions */,
+				A7E6182224D1C4900075C5AB /* Models */,
+				A7E6181F24D1BEA40075C5AB /* Parameters */,
+				A7E6181E24D1BE4A0075C5AB /* Pages */,
+				A7E6181D24D1BE3C0075C5AB /* Components */,
+				A7E6181624D1BDC40075C5AB /* Modifiers */,
+				A7E6181524D1BDB90075C5AB /* Views */,
 				A79B96C224D073A200BB461E /* Assets.xcassets */,
+				A79B96BE24D073A100BB461E /* UI_UtraFitAppApp.swift */,
 				A79B96C724D073A200BB461E /* Info.plist */,
 				A79B96C424D073A200BB461E /* Preview Content */,
 			);
@@ -67,6 +167,88 @@
 				A79B96C524D073A200BB461E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7E6181524D1BDB90075C5AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7E6181B24D1BE000075C5AB /* LoginRegisterView.swift */,
+				A779D00424D605AB00EB6DFA /* TodayCardView.swift */,
+				A779D00A24D63BC200EB6DFA /* OnBoardingView.swift */,
+				A779D01024D746A800EB6DFA /* MealCardView.swift */,
+				A779D01A24D798D600EB6DFA /* StepsView.swift */,
+				A701C3B724D8AC9F009EF180 /* MealDetailView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A7E6181624D1BDC40075C5AB /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				A7E6181724D1BDD50075C5AB /* RoundButtonModifier.swift */,
+				A7E6181924D1BDF10075C5AB /* RoundInputModifier.swift */,
+			);
+			name = Modifiers;
+			sourceTree = "<group>";
+		};
+		A7E6181D24D1BE3C0075C5AB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A7E6181324D0FFEA0075C5AB /* SocialIcon.swift */,
+				A7E6182D24D23B340075C5AB /* SliderRulerView.swift */,
+				A779CFF424D50B9E00EB6DFA /* SwitchView.swift */,
+				A779CFF824D5B6B100EB6DFA /* SelectBulletList.swift */,
+				A779CFFA24D5C11B00EB6DFA /* MultiSelectSquareView.swift */,
+				A779CFFE24D5E38D00EB6DFA /* CapsuleIcon.swift */,
+				A779D00024D5E7F700EB6DFA /* CircleProgressView.swift */,
+				A779D00224D5F81600EB6DFA /* HeartBeatSimpleView.swift */,
+				A779D00624D618F300EB6DFA /* SmallStatsCardView.swift */,
+				A779D00824D6263000EB6DFA /* SegmentSelectorView.swift */,
+				A779D01424D75E5E00EB6DFA /* SortSelectView.swift */,
+				A779D01624D78B3500EB6DFA /* YourProgressionView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A7E6181E24D1BE4A0075C5AB /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				A79B96C024D073A100BB461E /* ContentView.swift */,
+				A79B96CF24D0740600BB461E /* LoginView.swift */,
+				A79B96CD24D073F900BB461E /* MainView.swift */,
+				A779CFF624D5B5C900EB6DFA /* FoodPreferencesView.swift */,
+				A7E6182624D201630075C5AB /* PersonalInformationView.swift */,
+				A779CFFC24D5DF1E00EB6DFA /* ProfileView.swift */,
+				A779D00C24D7063600EB6DFA /* SplashView.swift */,
+				A779D00E24D73D0900EB6DFA /* MenuListView.swift */,
+				A779D01824D78D8000EB6DFA /* ExerciseView.swift */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		A7E6181F24D1BEA40075C5AB /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				A7E6182024D1BEB20075C5AB /* Parameters.swift */,
+			);
+			path = Parameters;
+			sourceTree = "<group>";
+		};
+		A7E6182224D1C4900075C5AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7E6182324D1C49D0075C5AB /* UserModel.swift */,
+				A779D01224D74EBB00EB6DFA /* MealModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A7E6182524D1F88A0075C5AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A701C3B524D8522B009EF180 /* AnimationExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +267,8 @@
 			dependencies = (
 			);
 			name = "UI-UtraFitApp";
+			packageProductDependencies = (
+			);
 			productName = "UI-UtraFitApp";
 			productReference = A79B96BB24D073A100BB461E /* UI-UtraFitApp.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +296,8 @@
 				Base,
 			);
 			mainGroup = A79B96B224D073A100BB461E;
+			packageReferences = (
+			);
 			productRefGroup = A79B96BC24D073A100BB461E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +324,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A701C3B824D8AC9F009EF180 /* MealDetailView.swift in Sources */,
+				A779D01B24D798D600EB6DFA /* StepsView.swift in Sources */,
+				A7E6181424D0FFEA0075C5AB /* SocialIcon.swift in Sources */,
+				A779D00F24D73D0900EB6DFA /* MenuListView.swift in Sources */,
+				A779CFFB24D5C11B00EB6DFA /* MultiSelectSquareView.swift in Sources */,
+				A779CFFF24D5E38D00EB6DFA /* CapsuleIcon.swift in Sources */,
+				A779D00324D5F81600EB6DFA /* HeartBeatSimpleView.swift in Sources */,
+				A779CFF724D5B5C900EB6DFA /* FoodPreferencesView.swift in Sources */,
 				A79B96C124D073A100BB461E /* ContentView.swift in Sources */,
+				A7E6182124D1BEB20075C5AB /* Parameters.swift in Sources */,
+				A701C3BA24D8E6E8009EF180 /* MultipleHorizontalTabView.swift in Sources */,
+				A7E6181C24D1BE000075C5AB /* LoginRegisterView.swift in Sources */,
+				A779D00D24D7063600EB6DFA /* SplashView.swift in Sources */,
+				A79B96CE24D073F900BB461E /* MainView.swift in Sources */,
+				A701C3B624D8522B009EF180 /* AnimationExtension.swift in Sources */,
+				A7E6182E24D23B340075C5AB /* SliderRulerView.swift in Sources */,
+				A701C3BD24D9C47C009EF180 /* FullScreen.swift in Sources */,
+				A779D00924D6263000EB6DFA /* SegmentSelectorView.swift in Sources */,
+				A79B96D024D0740600BB461E /* LoginView.swift in Sources */,
+				A779D01524D75E5E00EB6DFA /* SortSelectView.swift in Sources */,
 				A79B96BF24D073A100BB461E /* UI_UtraFitAppApp.swift in Sources */,
+				A779D00524D605AB00EB6DFA /* TodayCardView.swift in Sources */,
+				A779CFF524D50B9E00EB6DFA /* SwitchView.swift in Sources */,
+				A779D01924D78D8000EB6DFA /* ExerciseView.swift in Sources */,
+				A7E6181A24D1BDF10075C5AB /* RoundInputModifier.swift in Sources */,
+				A779D01124D746A800EB6DFA /* MealCardView.swift in Sources */,
+				A779CFF324D4DD7F00EB6DFA /* Conversions.swift in Sources */,
+				A779D00B24D63BC200EB6DFA /* OnBoardingView.swift in Sources */,
+				A779D00724D618F300EB6DFA /* SmallStatsCardView.swift in Sources */,
+				A7E6182724D201630075C5AB /* PersonalInformationView.swift in Sources */,
+				A7E6182424D1C49D0075C5AB /* UserModel.swift in Sources */,
+				A779D01724D78B3500EB6DFA /* YourProgressionView.swift in Sources */,
+				A779D01324D74EBB00EB6DFA /* MealModel.swift in Sources */,
+				A7E6182924D201BD0075C5AB /* CardView.swift in Sources */,
+				A779D00124D5E7F700EB6DFA /* CircleProgressView.swift in Sources */,
+				A779CFFD24D5DF1E00EB6DFA /* ProfileView.swift in Sources */,
+				A7E6181824D1BDD50075C5AB /* RoundButtonModifier.swift in Sources */,
+				A779CFF924D5B6B100EB6DFA /* SelectBulletList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "UI-UtraFitApp/UI-UtraFitApp.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"UI-UtraFitApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 37ERUH9595;
@@ -279,6 +502,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.projectd.UI-UtraFitApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,6 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "UI-UtraFitApp/UI-UtraFitApp.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"UI-UtraFitApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 37ERUH9595;
@@ -301,6 +526,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.projectd.UI-UtraFitApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

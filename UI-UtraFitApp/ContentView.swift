@@ -8,13 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var fullScreen: FullScreenController
+
     var body: some View {
-        Text("Hello, world!").padding()
+        ZStack {
+            backColor
+            OnBoardingView(views: [
+                AnyView(SplashView()),
+                AnyView(FoodPreferencesView()),
+                AnyView(PersonalInformationView()),
+            ])
+//            LoginView()
+//            ExerciseView()
+//            MenuListView()
+        }.ignoresSafeArea()
     }
 }
 
+#if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+                .previewDevice("iPhone 11")
+        }
     }
 }
+#endif
+

@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+
 @main
 struct UI_UtraFitAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(FullScreenController())
         }
     }
 }
